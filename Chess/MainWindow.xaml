@@ -1,0 +1,15 @@
+﻿<Window x:Class="Chess.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chess"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="852" Width="852">
+    <Grid x:Name="Board" PreviewMouseMove="Board_PreviewMouseMove" PreviewMouseUp="Board_PreviewMouseUp" Height="852" Width="852">
+        <Grid.Background>
+            <ImageBrush ImageSource="/board.png"/>
+        </Grid.Background>
+
+    </Grid>
+</Window>
