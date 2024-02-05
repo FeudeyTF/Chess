@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Chess"
         mc:Ignorable="d"
         Title="MainWindow" Height="852" Width="852">
-    <Grid x:Name="Board" PreviewMouseMove="Board_PreviewMouseMove" PreviewMouseUp="Board_PreviewMouseUp" Height="852" Width="852">
+    <Grid x:Name="Board" Height="852" Width="852">
         <Grid.Background>
             <ImageBrush ImageSource="/board.png"/>
         </Grid.Background>
